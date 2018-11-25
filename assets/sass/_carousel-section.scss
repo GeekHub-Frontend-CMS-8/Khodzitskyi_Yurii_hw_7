@@ -1,3 +1,119 @@
 @import "variables";
-
+.carousel-section {
+  padding: 80px 0;
+  a {
+    color: #8d81ac;
+    font-family: $font-Montserrat;
+    font-size: 16px;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .carousel-name-block {
+    max-width: 400px;
+    margin: auto;
+    h3 {
+      padding: 0 23px;
+    }
+    a {
+      display: block;
+      padding: 10px 23px;
+    }
+  }
+  .carousel-comment-block {
+    margin: auto;
+    padding: 50px 0 50px 0;
+    max-width: 80%;
+    border-bottom: 2px solid #f4f4f4;
+    .carousel-comment-p {
+      color: #333333;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 32px;
+      a{
+        font-size: inherit;
+      }
+    }
+    .carousel-comment-time {
+      color: #848e97;
+      font-family: $font-Montserrat;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+  .carousel-control-prev, .carousel-control-next {
+    font-size: 30px;
+    color: #474747;
+  }
+}
+//social
+.carousel-section {
+  .social-block {
+    padding: 50px 0 0 0;
+    margin: auto;
+    max-width: 900px;
+    .carousel-github-button {
+      padding: 16px 24px;
+      background-color: #f3f3f3;
+      display: block;
+      color: #000;
+      max-width: 280px;
+      margin: auto;
+      border-radius: 2px;
+      font-weight: bold;
+      font-family: $font-Montserrat;
+      font-size: 21px;
+      &:hover {
+        background-color: #cacaca;
+      }
+      span {
+        padding-left: 25%;
+      }
+    }
+    .carousel-twitter-button {
+      padding: 16px 24px;
+      background-color: #26a6d1;
+      color: #fff;
+      max-width: 280px;
+      margin: auto;
+      border-radius: 2px;
+      display: block;
+      font-family: $font-Montserrat;
+      font-size: 21px;
+      font-weight: bold;
+      &:hover {
+        background-color: #1f83a7;
+      }
+      span {
+        padding-left: 25%;
+      }
+    }
+    .carousel-facebook-button {
+      padding: 16px 24px;
+      color: #fff;
+      max-width: 280px;
+      margin: auto;
+      font-family: $font-Montserrat;
+      border-radius: 2px;
+      background-color: #3b5998;
+      display: block;
+      font-size: 21px;
+      font-weight: bold;
+      &:hover {
+        background-color: #426db3;
+      }
+      span {
+        padding-left: 25%;
+      }
+    }
+  }
+  .carousel-social-followers {
+    padding: 18px 0 25px;
+    color: #848e97;
+    font-family: $font-Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+  }
+}
 @import "media-q";

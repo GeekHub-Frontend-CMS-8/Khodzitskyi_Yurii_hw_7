@@ -1,3 +1,7 @@
+body {
+  max-width: 100vw;
+  overflow-x: hidden; }
+
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -109,21 +113,27 @@ header .nav-item {
       font-weight: bold;
       font-size: 16px; }
       header .nav-item .nav-link:hover {
-        color: #8d81ac !important; } }
+        color: #8d81ac !important; }
+  .carousel-section .social-block .carousel-facebook-button span {
+    padding-left: 10%; } }
 
 @media (min-width: 992px) {
   header .nav-item .nav-link {
     margin: 20px 0;
     padding: 20px 20px !important;
     font-weight: bold;
-    font-size: 16px; } }
+    font-size: 16px; }
+  .carousel-section .carousel-comment-block {
+    max-width: 780px; }
+  .carousel-section .social-block .carousel-facebook-button span {
+    padding-left: 25%; } }
 
 @media (min-width: 1200px) {
   .hero {
     background-size: cover; } }
 
 .hero {
-  background: url("/../img/hero-background.png") no-repeat center;
+  background: url("../img/hero-background.png") no-repeat center;
   background-size: cover; }
   .hero h1 {
     padding: 88px 0 10px;
@@ -178,14 +188,20 @@ header .nav-item {
       font-weight: bold;
       font-size: 16px; }
       header .nav-item .nav-link:hover {
-        color: #8d81ac !important; } }
+        color: #8d81ac !important; }
+  .carousel-section .social-block .carousel-facebook-button span {
+    padding-left: 10%; } }
 
 @media (min-width: 992px) {
   header .nav-item .nav-link {
     margin: 20px 0;
     padding: 20px 20px !important;
     font-weight: bold;
-    font-size: 16px; } }
+    font-size: 16px; }
+  .carousel-section .carousel-comment-block {
+    max-width: 780px; }
+  .carousel-section .social-block .carousel-facebook-button span {
+    padding-left: 25%; } }
 
 @media (min-width: 1200px) {
   .hero {
@@ -245,22 +261,26 @@ header .nav-item {
       font-weight: bold;
       font-size: 16px; }
       header .nav-item .nav-link:hover {
-        color: #8d81ac !important; } }
+        color: #8d81ac !important; }
+  .carousel-section .social-block .carousel-facebook-button span {
+    padding-left: 10%; } }
 
 @media (min-width: 992px) {
   header .nav-item .nav-link {
     margin: 20px 0;
     padding: 20px 20px !important;
     font-weight: bold;
-    font-size: 16px; } }
+    font-size: 16px; }
+  .carousel-section .carousel-comment-block {
+    max-width: 780px; }
+  .carousel-section .social-block .carousel-facebook-button span {
+    padding-left: 25%; } }
 
 @media (min-width: 1200px) {
   .hero {
     background-size: cover; } }
 
 .features {
-  overflow-x: hidden;
-  overflow-y: visible;
   padding: 50px 0 0 0;
   background-color: #f4f4f4; }
   .features .upper-features-row h3 {
@@ -303,18 +323,119 @@ header .nav-item {
       font-weight: bold;
       font-size: 16px; }
       header .nav-item .nav-link:hover {
-        color: #8d81ac !important; } }
+        color: #8d81ac !important; }
+  .carousel-section .social-block .carousel-facebook-button span {
+    padding-left: 10%; } }
 
 @media (min-width: 992px) {
   header .nav-item .nav-link {
     margin: 20px 0;
     padding: 20px 20px !important;
     font-weight: bold;
-    font-size: 16px; } }
+    font-size: 16px; }
+  .carousel-section .carousel-comment-block {
+    max-width: 780px; }
+  .carousel-section .social-block .carousel-facebook-button span {
+    padding-left: 25%; } }
 
 @media (min-width: 1200px) {
   .hero {
     background-size: cover; } }
+
+.carousel-section {
+  padding: 80px 0; }
+  .carousel-section a {
+    color: #8d81ac;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px; }
+    .carousel-section a:hover {
+      text-decoration: none; }
+  .carousel-section .carousel-name-block {
+    max-width: 400px;
+    margin: auto; }
+    .carousel-section .carousel-name-block h3 {
+      padding: 0 23px; }
+    .carousel-section .carousel-name-block a {
+      display: block;
+      padding: 10px 23px; }
+  .carousel-section .carousel-comment-block {
+    margin: auto;
+    padding: 50px 0 50px 0;
+    max-width: 80%;
+    border-bottom: 2px solid #f4f4f4; }
+    .carousel-section .carousel-comment-block .carousel-comment-p {
+      color: #333333;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 32px; }
+      .carousel-section .carousel-comment-block .carousel-comment-p a {
+        font-size: inherit; }
+    .carousel-section .carousel-comment-block .carousel-comment-time {
+      color: #848e97;
+      font-family: "Montserrat", sans-serif;
+      font-size: 16px;
+      font-weight: 400; }
+  .carousel-section .carousel-control-prev, .carousel-section .carousel-control-next {
+    font-size: 30px;
+    color: #474747; }
+
+.carousel-section .social-block {
+  padding: 50px 0 0 0;
+  margin: auto;
+  max-width: 900px; }
+  .carousel-section .social-block .carousel-github-button {
+    padding: 16px 24px;
+    background-color: #f3f3f3;
+    display: block;
+    color: #000;
+    max-width: 280px;
+    margin: auto;
+    border-radius: 2px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px; }
+    .carousel-section .social-block .carousel-github-button:hover {
+      background-color: #cacaca; }
+    .carousel-section .social-block .carousel-github-button span {
+      padding-left: 25%; }
+  .carousel-section .social-block .carousel-twitter-button {
+    padding: 16px 24px;
+    background-color: #26a6d1;
+    color: #fff;
+    max-width: 280px;
+    margin: auto;
+    border-radius: 2px;
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+    font-weight: bold; }
+    .carousel-section .social-block .carousel-twitter-button:hover {
+      background-color: #1f83a7; }
+    .carousel-section .social-block .carousel-twitter-button span {
+      padding-left: 25%; }
+  .carousel-section .social-block .carousel-facebook-button {
+    padding: 16px 24px;
+    color: #fff;
+    max-width: 280px;
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 2px;
+    background-color: #3b5998;
+    display: block;
+    font-size: 21px;
+    font-weight: bold; }
+    .carousel-section .social-block .carousel-facebook-button:hover {
+      background-color: #426db3; }
+    .carousel-section .social-block .carousel-facebook-button span {
+      padding-left: 25%; }
+
+.carousel-section .carousel-social-followers {
+  padding: 18px 0 25px;
+  color: #848e97;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center; }
 
 @media (min-width: 576px) {
   .revol-editor .revol-title {
@@ -332,14 +453,20 @@ header .nav-item {
       font-weight: bold;
       font-size: 16px; }
       header .nav-item .nav-link:hover {
-        color: #8d81ac !important; } }
+        color: #8d81ac !important; }
+  .carousel-section .social-block .carousel-facebook-button span {
+    padding-left: 10%; } }
 
 @media (min-width: 992px) {
   header .nav-item .nav-link {
     margin: 20px 0;
     padding: 20px 20px !important;
     font-weight: bold;
-    font-size: 16px; } }
+    font-size: 16px; }
+  .carousel-section .carousel-comment-block {
+    max-width: 780px; }
+  .carousel-section .social-block .carousel-facebook-button span {
+    padding-left: 25%; } }
 
 @media (min-width: 1200px) {
   .hero {

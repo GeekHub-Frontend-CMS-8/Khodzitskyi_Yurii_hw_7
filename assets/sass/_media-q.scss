@@ -26,6 +26,15 @@
       }
     }
   }
+  .carousel-section {
+    .social-block {
+      .carousel-facebook-button {
+        span {
+          padding-left: 10%;
+        }
+      }
+    }
+  }
 }
 //lg
 @media (min-width: 992px) {
@@ -36,6 +45,18 @@
         padding: 20px 20px !important;
         font-weight: bold;
         font-size: 16px;
+      }
+    }
+  }
+  .carousel-section {
+    .carousel-comment-block {
+      max-width: 780px;
+    }
+    .social-block {
+      .carousel-facebook-button {
+        span {
+          padding-left: 25%;
+        }
       }
     }
   }
