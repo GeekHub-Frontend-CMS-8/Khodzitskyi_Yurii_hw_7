@@ -1,5 +1,6 @@
 @import "variables";
 .features {
+  overflow: hidden;
   padding: 50px 0 0 0;
   background-color: #f4f4f4;
   .upper-features-row {
@@ -30,7 +31,7 @@
   }
   .features-overflow-image {
     position: relative;
-    bottom: -50px;
+  //  bottom: -50px;
   }
 }
 @import "media-q";

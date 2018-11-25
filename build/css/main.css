@@ -281,6 +281,7 @@ header .nav-item {
     background-size: cover; } }
 
 .features {
+  overflow: hidden;
   padding: 50px 0 0 0;
   background-color: #f4f4f4; }
   .features .upper-features-row h3 {
@@ -304,8 +305,7 @@ header .nav-item {
     font-weight: 700;
     line-height: 54px; }
   .features .features-overflow-image {
-    position: relative;
-    bottom: -50px; }
+    position: relative; }
 
 @media (min-width: 576px) {
   .revol-editor .revol-title {
@@ -436,6 +436,65 @@ header .nav-item {
   font-size: 14px;
   font-weight: bold;
   text-align: center; }
+
+@media (min-width: 576px) {
+  .revol-editor .revol-title {
+    font-size: 48px; } }
+
+@media (min-width: 768px) {
+  header .nav-item {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+    header .nav-item .nav-link {
+      margin: 0 0;
+      padding: 10px 10px !important;
+      color: #635c73 !important;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      font-size: 16px; }
+      header .nav-item .nav-link:hover {
+        color: #8d81ac !important; }
+  .carousel-section .social-block .carousel-facebook-button span {
+    padding-left: 10%; } }
+
+@media (min-width: 992px) {
+  header .nav-item .nav-link {
+    margin: 20px 0;
+    padding: 20px 20px !important;
+    font-weight: bold;
+    font-size: 16px; }
+  .carousel-section .carousel-comment-block {
+    max-width: 780px; }
+  .carousel-section .social-block .carousel-facebook-button span {
+    padding-left: 25%; } }
+
+@media (min-width: 1200px) {
+  .hero {
+    background-size: cover; } }
+
+.testimonials-section {
+  padding: 80px 10px 10px;
+  text-align: center;
+  background: #4b3b4e url("../img/testimonials-background.png") no-repeat center;
+  background-size: cover; }
+  .testimonials-section h2 {
+    padding: 0 0 45px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-weight: bold; }
+  .testimonials-section p {
+    padding: 30px 0 60px;
+    margin: auto;
+    color: #fff;
+    max-width: 340px;
+    font: italic 16px "Source Sans Pro - Bold It", sans-serif;
+    font-weight: bold;
+    line-height: 24px; }
+  .testimonials-section .little-bottom-line {
+    margin: 0 auto 50px;
+    max-width: 80%;
+    border-bottom: 2px solid #655968; }
 
 @media (min-width: 576px) {
   .revol-editor .revol-title {
