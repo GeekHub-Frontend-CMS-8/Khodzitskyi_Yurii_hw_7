@@ -1,0 +1,57 @@
+@import "variables";
+/*navbar*/
+header {
+  .navbar {
+    padding: 0;
+    max-width: 1170px;
+    margin:auto;
+  }
+  .navbar-brand {
+    img {
+      padding: 30px 16px;
+    }
+    /* Style for "ForkIO" */
+    color: #333333;
+    font-family: $font-Montserrat;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    span {
+      color: #8d81ac;
+    }
+  }
+  .navbar-toggler {
+    border: 0;
+    border-left: 1px solid rgba(0,0,0,0.1);
+    outline: none;
+  }
+  .purple-button {
+    @include purple-button;
+    padding: 15px 36px;
+  }
+  .nav-item {
+    background-color: #333333;
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+    .nav-link {
+      margin: 20px 0;
+      padding: 20px 20px;
+      color: #d4d4d4 !important;
+      font-family: $font-Montserrat;
+      font-size: 32px;
+      font-weight: bold;
+      &:hover {
+        color: #8d81ac !important;
+      }
+    }
+    .follow-us-nav-icon {
+      padding: 0 20px;
+      color: #d4d4d4 !important;
+      font-size: 48px;
+      &:hover {
+        color: #8d81ac !important;
+        text-decoration: none;
+      }
+    }
+  }
+}
+@import "media-q";

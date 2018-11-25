@@ -36,3 +36,80 @@ table {
   content: "";
   clear: both;
   display: table; }
+
+/*navbar*/
+header .navbar {
+  padding: 0;
+  max-width: 1170px;
+  margin: auto; }
+
+header .navbar-brand {
+  /* Style for "ForkIO" */
+  color: #333333;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase; }
+  header .navbar-brand img {
+    padding: 30px 16px; }
+  header .navbar-brand span {
+    color: #8d81ac; }
+
+header .navbar-toggler {
+  border: 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none; }
+
+header .purple-button {
+  color: #d4d4d4;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 15px;
+  background-color: #8d81ac;
+  border-radius: 24px;
+  outline: none;
+  padding: 15px 36px; }
+  header .purple-button:hover {
+    background-color: #4d4963; }
+
+header .nav-item {
+  background-color: #333333;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+  header .nav-item .nav-link {
+    margin: 20px 0;
+    padding: 20px 20px;
+    color: #d4d4d4 !important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: bold; }
+    header .nav-item .nav-link:hover {
+      color: #8d81ac !important; }
+  header .nav-item .follow-us-nav-icon {
+    padding: 0 20px;
+    color: #d4d4d4 !important;
+    font-size: 48px; }
+    header .nav-item .follow-us-nav-icon:hover {
+      color: #8d81ac !important;
+      text-decoration: none; }
+
+@media (min-width: 768px) {
+  header .nav-item {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+    header .nav-item .nav-link {
+      margin: 0 0;
+      padding: 10px 10px !important;
+      color: #635c73 !important;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      font-size: 16px; }
+      header .nav-item .nav-link:hover {
+        color: #8d81ac !important; } }
+
+@media (min-width: 992px) {
+  header .nav-item .nav-link {
+    margin: 20px 0;
+    padding: 20px 20px !important;
+    font-weight: bold;
+    font-size: 16px; } }

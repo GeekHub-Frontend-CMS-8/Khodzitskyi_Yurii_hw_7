@@ -1,0 +1,42 @@
+@import "variables";
+//sm
+@media (min-width: 576px) {
+
+}
+//md
+@media (min-width: 768px) {
+  header {
+    .nav-item {
+      background-color: rgba(0,0,0,0) !important;
+      border-bottom: 1px solid rgba(255,255,255,0.4);
+      .nav-link {
+        margin: 0 0;
+        padding: 10px 10px !important;
+        color: #635c73 !important;
+        font-family: $font-Montserrat;
+        font-weight: bold;
+        font-size: 16px;
+        &:hover {
+          color: #8d81ac !important;
+        }
+      }
+    }
+  }
+}
+//lg
+@media (min-width: 992px) {
+  header {
+    .nav-item {
+      .nav-link {
+        margin: 20px 0;
+        padding: 20px 20px !important;
+        font-weight: bold;
+        font-size: 16px;
+      }
+    }
+  }
+}
+//xl
+@media (min-width: 1200px) {
+
+}
