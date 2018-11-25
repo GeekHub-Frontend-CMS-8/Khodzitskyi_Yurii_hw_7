@@ -1,7 +1,11 @@
 @import "variables";
 //sm
 @media (min-width: 576px) {
-
+  .revol-editor{
+    .revol-title {
+      font-size: 48px;
+    }
+  }
 }
 //md
 @media (min-width: 768px) {

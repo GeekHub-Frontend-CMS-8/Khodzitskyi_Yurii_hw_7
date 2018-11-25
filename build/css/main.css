@@ -93,6 +93,10 @@ header .nav-item {
       color: #8d81ac !important;
       text-decoration: none; }
 
+@media (min-width: 576px) {
+  .revol-editor .revol-title {
+    font-size: 48px; } }
+
 @media (min-width: 768px) {
   header .nav-item {
     background-color: rgba(0, 0, 0, 0) !important;
@@ -140,25 +144,123 @@ header .nav-item {
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase; }
-  .hero .container {
-    position: relative; }
-    .hero .container button {
-      position: relative;
-      right: 0;
-      bottom: -30px;
-      margin: auto;
-      color: #fff;
+  .hero .container button {
+    position: relative;
+    right: 0;
+    bottom: -30px;
+    margin: auto;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 15px;
+    background-color: #8d81ac;
+    border-radius: 24px;
+    outline: none;
+    padding: 23px 65px;
+    border-radius: 30px; }
+    .hero .container button:hover {
+      background-color: #4d4963; }
+
+@media (min-width: 576px) {
+  .revol-editor .revol-title {
+    font-size: 48px; } }
+
+@media (min-width: 768px) {
+  header .nav-item {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+    header .nav-item .nav-link {
+      margin: 0 0;
+      padding: 10px 10px !important;
+      color: #635c73 !important;
       font-family: "Montserrat", sans-serif;
-      font-size: 17px;
       font-weight: bold;
-      line-height: 15px;
-      background-color: #8d81ac;
-      border-radius: 24px;
-      outline: none;
-      padding: 23px 65px;
-      border-radius: 30px; }
-      .hero .container button:hover {
-        background-color: #4d4963; }
+      font-size: 16px; }
+      header .nav-item .nav-link:hover {
+        color: #8d81ac !important; } }
+
+@media (min-width: 992px) {
+  header .nav-item .nav-link {
+    margin: 20px 0;
+    padding: 20px 20px !important;
+    font-weight: bold;
+    font-size: 16px; } }
+
+@media (min-width: 1200px) {
+  .hero {
+    background-size: cover; } }
+
+.revol-editor .revol-top-text {
+  padding: 45px 0;
+  color: #848e97;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold; }
+
+.revol-editor .revol-title {
+  color: #635c73;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10vw;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.revol-editor .revol-text {
+  padding: 45px 0;
+  color: #5b5b5b;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; }
+
+.revol-editor .github-buttons {
+  padding-bottom: 60px;
+  font-weight: bold; }
+  .revol-editor .github-buttons label {
+    margin: 5px;
+    border: 1px solid #dddddd;
+    border-radius: 4px; }
+  .revol-editor .github-buttons button {
+    padding: 5px 15px;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(to top, #eeeeef, #fff); }
+  .revol-editor .github-buttons span {
+    padding: 10px; }
+
+@media (min-width: 576px) {
+  .revol-editor .revol-title {
+    font-size: 48px; } }
+
+@media (min-width: 768px) {
+  header .nav-item {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+    header .nav-item .nav-link {
+      margin: 0 0;
+      padding: 10px 10px !important;
+      color: #635c73 !important;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      font-size: 16px; }
+      header .nav-item .nav-link:hover {
+        color: #8d81ac !important; } }
+
+@media (min-width: 992px) {
+  header .nav-item .nav-link {
+    margin: 20px 0;
+    padding: 20px 20px !important;
+    font-weight: bold;
+    font-size: 16px; } }
+
+@media (min-width: 1200px) {
+  .hero {
+    background-size: cover; } }
+
+@media (min-width: 576px) {
+  .revol-editor .revol-title {
+    font-size: 48px; } }
 
 @media (min-width: 768px) {
   header .nav-item {

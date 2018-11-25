@@ -25,7 +25,6 @@
     text-transform: uppercase;
   }
   .container {
-    position: relative;
     button {
       position: relative;
       right: 0;
@@ -33,7 +32,7 @@
       margin: auto;
       @include purple-button;
       padding: 23px 65px;
-      border-radius: 30px;
+      border-radius:  30px;
     }
   }
 }
