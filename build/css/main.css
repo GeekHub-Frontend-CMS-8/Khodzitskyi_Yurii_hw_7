@@ -259,7 +259,8 @@ header .nav-item {
     background-size: cover; } }
 
 .features {
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: visible;
   padding: 50px 0 0 0;
   background-color: #f4f4f4; }
   .features .upper-features-row h3 {
@@ -285,6 +286,35 @@ header .nav-item {
   .features .features-overflow-image {
     position: relative;
     bottom: -50px; }
+
+@media (min-width: 576px) {
+  .revol-editor .revol-title {
+    font-size: 48px; } }
+
+@media (min-width: 768px) {
+  header .nav-item {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+    header .nav-item .nav-link {
+      margin: 0 0;
+      padding: 10px 10px !important;
+      color: #635c73 !important;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      font-size: 16px; }
+      header .nav-item .nav-link:hover {
+        color: #8d81ac !important; } }
+
+@media (min-width: 992px) {
+  header .nav-item .nav-link {
+    margin: 20px 0;
+    padding: 20px 20px !important;
+    font-weight: bold;
+    font-size: 16px; } }
+
+@media (min-width: 1200px) {
+  .hero {
+    background-size: cover; } }
 
 @media (min-width: 576px) {
   .revol-editor .revol-title {
