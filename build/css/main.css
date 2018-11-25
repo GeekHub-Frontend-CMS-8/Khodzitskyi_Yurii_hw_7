@@ -61,7 +61,7 @@ header .navbar-toggler {
   outline: none; }
 
 header .purple-button {
-  color: #d4d4d4;
+  color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 17px;
   font-weight: bold;
@@ -113,3 +113,74 @@ header .nav-item {
     padding: 20px 20px !important;
     font-weight: bold;
     font-size: 16px; } }
+
+@media (min-width: 1200px) {
+  .hero {
+    background-size: cover; } }
+
+.hero {
+  background: url("/../img/hero-background.png") no-repeat center;
+  background-size: cover; }
+  .hero h1 {
+    padding: 88px 0 10px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 82px;
+    font-weight: bold; }
+  .hero .hero-first-line {
+    padding: 10px 0;
+    color: #8d81ac;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: bold; }
+  .hero .hero-second-line {
+    padding: 10px 0 480px;
+    color: #848e97;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .hero .container {
+    position: relative; }
+    .hero .container button {
+      position: relative;
+      right: 0;
+      bottom: -30px;
+      margin: auto;
+      color: #fff;
+      font-family: "Montserrat", sans-serif;
+      font-size: 17px;
+      font-weight: bold;
+      line-height: 15px;
+      background-color: #8d81ac;
+      border-radius: 24px;
+      outline: none;
+      padding: 23px 65px;
+      border-radius: 30px; }
+      .hero .container button:hover {
+        background-color: #4d4963; }
+
+@media (min-width: 768px) {
+  header .nav-item {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+    header .nav-item .nav-link {
+      margin: 0 0;
+      padding: 10px 10px !important;
+      color: #635c73 !important;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      font-size: 16px; }
+      header .nav-item .nav-link:hover {
+        color: #8d81ac !important; } }
+
+@media (min-width: 992px) {
+  header .nav-item .nav-link {
+    margin: 20px 0;
+    padding: 20px 20px !important;
+    font-weight: bold;
+    font-size: 16px; } }
+
+@media (min-width: 1200px) {
+  .hero {
+    background-size: cover; } }
