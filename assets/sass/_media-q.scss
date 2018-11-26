@@ -6,6 +6,11 @@
       font-size: 48px;
     }
   }
+  .pricing-section {
+    .pricing-element {
+      max-width: 46%;
+    }
+  }
 }
 //md
 @media (min-width: 768px) {
@@ -33,6 +38,11 @@
           padding-left: 10%;
         }
       }
+    }
+  }
+  .pricing-section {
+    .pricing-element {
+      max-width: 23%;
     }
   }
 }

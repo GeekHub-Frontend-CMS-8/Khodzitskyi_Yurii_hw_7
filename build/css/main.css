@@ -99,7 +99,9 @@ header .nav-item {
 
 @media (min-width: 576px) {
   .revol-editor .revol-title {
-    font-size: 48px; } }
+    font-size: 48px; }
+  .pricing-section .pricing-element {
+    max-width: 46%; } }
 
 @media (min-width: 768px) {
   header .nav-item {
@@ -115,7 +117,9 @@ header .nav-item {
       header .nav-item .nav-link:hover {
         color: #8d81ac !important; }
   .carousel-section .social-block .carousel-facebook-button span {
-    padding-left: 10%; } }
+    padding-left: 10%; }
+  .pricing-section .pricing-element {
+    max-width: 23%; } }
 
 @media (min-width: 992px) {
   header .nav-item .nav-link {
@@ -174,7 +178,9 @@ header .nav-item {
 
 @media (min-width: 576px) {
   .revol-editor .revol-title {
-    font-size: 48px; } }
+    font-size: 48px; }
+  .pricing-section .pricing-element {
+    max-width: 46%; } }
 
 @media (min-width: 768px) {
   header .nav-item {
@@ -190,7 +196,9 @@ header .nav-item {
       header .nav-item .nav-link:hover {
         color: #8d81ac !important; }
   .carousel-section .social-block .carousel-facebook-button span {
-    padding-left: 10%; } }
+    padding-left: 10%; }
+  .pricing-section .pricing-element {
+    max-width: 23%; } }
 
 @media (min-width: 992px) {
   header .nav-item .nav-link {
@@ -247,7 +255,9 @@ header .nav-item {
 
 @media (min-width: 576px) {
   .revol-editor .revol-title {
-    font-size: 48px; } }
+    font-size: 48px; }
+  .pricing-section .pricing-element {
+    max-width: 46%; } }
 
 @media (min-width: 768px) {
   header .nav-item {
@@ -263,7 +273,9 @@ header .nav-item {
       header .nav-item .nav-link:hover {
         color: #8d81ac !important; }
   .carousel-section .social-block .carousel-facebook-button span {
-    padding-left: 10%; } }
+    padding-left: 10%; }
+  .pricing-section .pricing-element {
+    max-width: 23%; } }
 
 @media (min-width: 992px) {
   header .nav-item .nav-link {
@@ -309,7 +321,9 @@ header .nav-item {
 
 @media (min-width: 576px) {
   .revol-editor .revol-title {
-    font-size: 48px; } }
+    font-size: 48px; }
+  .pricing-section .pricing-element {
+    max-width: 46%; } }
 
 @media (min-width: 768px) {
   header .nav-item {
@@ -325,7 +339,9 @@ header .nav-item {
       header .nav-item .nav-link:hover {
         color: #8d81ac !important; }
   .carousel-section .social-block .carousel-facebook-button span {
-    padding-left: 10%; } }
+    padding-left: 10%; }
+  .pricing-section .pricing-element {
+    max-width: 23%; } }
 
 @media (min-width: 992px) {
   header .nav-item .nav-link {
@@ -439,7 +455,9 @@ header .nav-item {
 
 @media (min-width: 576px) {
   .revol-editor .revol-title {
-    font-size: 48px; } }
+    font-size: 48px; }
+  .pricing-section .pricing-element {
+    max-width: 46%; } }
 
 @media (min-width: 768px) {
   header .nav-item {
@@ -455,7 +473,9 @@ header .nav-item {
       header .nav-item .nav-link:hover {
         color: #8d81ac !important; }
   .carousel-section .social-block .carousel-facebook-button span {
-    padding-left: 10%; } }
+    padding-left: 10%; }
+  .pricing-section .pricing-element {
+    max-width: 23%; } }
 
 @media (min-width: 992px) {
   header .nav-item .nav-link {
@@ -498,7 +518,9 @@ header .nav-item {
 
 @media (min-width: 576px) {
   .revol-editor .revol-title {
-    font-size: 48px; } }
+    font-size: 48px; }
+  .pricing-section .pricing-element {
+    max-width: 46%; } }
 
 @media (min-width: 768px) {
   header .nav-item {
@@ -514,7 +536,124 @@ header .nav-item {
       header .nav-item .nav-link:hover {
         color: #8d81ac !important; }
   .carousel-section .social-block .carousel-facebook-button span {
-    padding-left: 10%; } }
+    padding-left: 10%; }
+  .pricing-section .pricing-element {
+    max-width: 23%; } }
+
+@media (min-width: 992px) {
+  header .nav-item .nav-link {
+    margin: 20px 0;
+    padding: 20px 20px !important;
+    font-weight: bold;
+    font-size: 16px; }
+  .carousel-section .carousel-comment-block {
+    max-width: 780px; }
+  .carousel-section .social-block .carousel-facebook-button span {
+    padding-left: 25%; } }
+
+@media (min-width: 1200px) {
+  .hero {
+    background-size: cover; } }
+
+.pricing-section {
+  background: #4b3b4e url("../img/pricing-background.png") no-repeat center;
+  background-size: cover; }
+  .pricing-section .pricing-title {
+    padding: 50px 15px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-weight: bold; }
+  .pricing-section .pricing-element {
+    max-width: 100%;
+    margin: 10px auto;
+    padding: 0 0 60px 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.11); }
+    .pricing-section .pricing-element h3 {
+      background-color: rgba(255, 255, 255, 0.06);
+      padding: 45px 0 30px;
+      color: #fff;
+      font-family: "Montserrat", sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: uppercase; }
+    .pricing-section .pricing-element h2 {
+      padding: 35px 0 20px;
+      color: #fff;
+      font-family: "Montserrat", sans-serif;
+      font-size: 60px;
+      font-weight: bold; }
+    .pricing-section .pricing-element .sub-time {
+      padding: 5px 0 38px;
+      color: rgba(255, 255, 255, 0.3);
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase; }
+    .pricing-section .pricing-element .pricing-short-line {
+      margin: auto;
+      max-width: 60px;
+      border-bottom: 5px solid #8d81ac; }
+    .pricing-section .pricing-element .pricing-license-type {
+      padding: 30px 0 50px;
+      color: #fff;
+      font-family: "Montserrat", sans-serif;
+      font-size: 16px;
+      font-weight: bold; }
+    .pricing-section .pricing-element .pricing-purchase-button {
+      margin-bottom: 50px;
+      padding: 15px 37px;
+      color: #fff;
+      max-width: 160px;
+      border-radius: 25px;
+      background-color: rgba(255, 255, 255, 0.15);
+      font-family: "Montserrat", sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase; }
+  .pricing-section .pricing-element:hover {
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.08); }
+    .pricing-section .pricing-element:hover h3 {
+      background-color: rgba(0, 0, 0, 0.11); }
+    .pricing-section .pricing-element:hover h2 {
+      font-size: 82px; }
+    .pricing-section .pricing-element:hover .pricing-purchase-button {
+      background-color: rgba(0, 0, 0, 0.15);
+      font-family: "Montserrat", sans-serif; }
+  .pricing-section .pricing-bottom-text {
+    padding: 110px 0 77px;
+    margin: auto;
+    max-width: 860px;
+    text-align: center;
+    color: rgba(162, 145, 165, 0.8);
+    font-size: 14px;
+    line-height: 21px; }
+
+@media (min-width: 576px) {
+  .revol-editor .revol-title {
+    font-size: 48px; }
+  .pricing-section .pricing-element {
+    max-width: 46%; } }
+
+@media (min-width: 768px) {
+  header .nav-item {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+    header .nav-item .nav-link {
+      margin: 0 0;
+      padding: 10px 10px !important;
+      color: #635c73 !important;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      font-size: 16px; }
+      header .nav-item .nav-link:hover {
+        color: #8d81ac !important; }
+  .carousel-section .social-block .carousel-facebook-button span {
+    padding-left: 10%; }
+  .pricing-section .pricing-element {
+    max-width: 23%; } }
 
 @media (min-width: 992px) {
   header .nav-item .nav-link {
