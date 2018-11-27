@@ -596,6 +596,8 @@ header .nav-item {
       max-width: 60px;
       border-bottom: 5px solid #8d81ac; }
     .pricing-section .pricing-element .pricing-license-type {
+      margin: auto;
+      max-width: 85%;
       padding: 30px 0 50px;
       color: #fff;
       font-family: "Montserrat", sans-serif;
@@ -618,18 +620,169 @@ header .nav-item {
     .pricing-section .pricing-element:hover h3 {
       background-color: rgba(0, 0, 0, 0.11); }
     .pricing-section .pricing-element:hover h2 {
-      font-size: 82px; }
+      transform: scale(1.2); }
     .pricing-section .pricing-element:hover .pricing-purchase-button {
       background-color: rgba(0, 0, 0, 0.15);
       font-family: "Montserrat", sans-serif; }
   .pricing-section .pricing-bottom-text {
-    padding: 110px 0 77px;
+    padding: 110px 5% 77px;
     margin: auto;
     max-width: 860px;
     text-align: center;
     color: rgba(162, 145, 165, 0.8);
     font-size: 14px;
     line-height: 21px; }
+
+@media (min-width: 576px) {
+  .revol-editor .revol-title {
+    font-size: 48px; }
+  .pricing-section .pricing-element {
+    max-width: 46%; } }
+
+@media (min-width: 768px) {
+  header .nav-item {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+    header .nav-item .nav-link {
+      margin: 0 0;
+      padding: 10px 10px !important;
+      color: #635c73 !important;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      font-size: 16px; }
+      header .nav-item .nav-link:hover {
+        color: #8d81ac !important; }
+  .carousel-section .social-block .carousel-facebook-button span {
+    padding-left: 10%; }
+  .pricing-section .pricing-element {
+    max-width: 23%; } }
+
+@media (min-width: 992px) {
+  header .nav-item .nav-link {
+    margin: 20px 0;
+    padding: 20px 20px !important;
+    font-weight: bold;
+    font-size: 16px; }
+  .carousel-section .carousel-comment-block {
+    max-width: 780px; }
+  .carousel-section .social-block .carousel-facebook-button span {
+    padding-left: 25%; } }
+
+@media (min-width: 1200px) {
+  .hero {
+    background-size: cover; } }
+
+.newsletter-section {
+  padding: 30px 0;
+  background-color: #f4f4f4; }
+  .newsletter-section .newsletter-label {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0;
+    color: #323232;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: bold; }
+  .newsletter-section .newsletter-email {
+    margin: auto;
+    padding: 14px 25px;
+    width: 58%;
+    outline: none;
+    border: none;
+    border-radius: 30px; }
+  .newsletter-section .newsletter-button {
+    padding: 14px 25px;
+    width: 38%;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    background-color: #8d81ac;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: bold; }
+
+@media (min-width: 576px) {
+  .revol-editor .revol-title {
+    font-size: 48px; }
+  .pricing-section .pricing-element {
+    max-width: 46%; } }
+
+@media (min-width: 768px) {
+  header .nav-item {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+    header .nav-item .nav-link {
+      margin: 0 0;
+      padding: 10px 10px !important;
+      color: #635c73 !important;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      font-size: 16px; }
+      header .nav-item .nav-link:hover {
+        color: #8d81ac !important; }
+  .carousel-section .social-block .carousel-facebook-button span {
+    padding-left: 10%; }
+  .pricing-section .pricing-element {
+    max-width: 23%; } }
+
+@media (min-width: 992px) {
+  header .nav-item .nav-link {
+    margin: 20px 0;
+    padding: 20px 20px !important;
+    font-weight: bold;
+    font-size: 16px; }
+  .carousel-section .carousel-comment-block {
+    max-width: 780px; }
+  .carousel-section .social-block .carousel-facebook-button span {
+    padding-left: 25%; } }
+
+@media (min-width: 1200px) {
+  .hero {
+    background-size: cover; } }
+
+.links-section h2 {
+  padding: 50px 0;
+  color: #d3d1da;
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: bold; }
+
+.links-section .release-element h3 {
+  color: #323232;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: bold; }
+
+.links-section .release-element p {
+  padding: 20px 0 15px;
+  color: #848e97;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  line-height: 21px; }
+
+.links-section .links-button {
+  padding: 10px 24px;
+  color: #8d81ac;
+  background-color: #f4f4f4;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold; }
+
+.links-section .popular-element h3 {
+  color: #8d81ac;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 26px; }
+
+.links-section .popular-element p {
+  padding: 20px 0 15px;
+  color: #848e97;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  line-height: 21px; }
 
 @media (min-width: 576px) {
   .revol-editor .revol-title {
